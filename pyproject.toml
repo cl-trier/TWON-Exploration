@@ -7,6 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jupyter = "^1.0.0"
+pydantic = "^2.7.1"
+pandas = "^2.2.2"
+pyarrow = "^16.0.0"
+matplotlib = "^3.8.4"
+seaborn = "^0.13.2"
 
 
 [build-system]
