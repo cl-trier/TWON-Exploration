@@ -1,0 +1,5 @@
+{
+    "name": "embed_money",
+    "template": "Please consider the following sentence in the context of a story about finance and find semantically rich sentence level embeddings. Only answer with the sentence and nothing else./n"
+    
+  }
