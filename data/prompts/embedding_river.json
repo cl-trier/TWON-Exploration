@@ -1,5 +1,0 @@
-{
-    "name": "embed_river",
-    "template": "Please consider the following sentence in the context of a story about a river and find semantically rich sentence level embeddings. Only answer with the sentence and nothing else./n"
-    
-  }

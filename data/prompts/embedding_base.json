@@ -1,5 +1,5 @@
 {
     "name": "embed_base",
-    "template": "Please consider the following sentence in the context of a story and find sentence level embeddings. Only answer with the sentence and nothing else./n"
+    "template": "You help me get embeddings for a sentence. I provide you a with a context and a sentence and you reply only with that exact sentence. Context = "
     
   }
