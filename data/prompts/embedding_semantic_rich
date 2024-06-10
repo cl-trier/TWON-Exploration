@@ -1,5 +1,4 @@
 {
     "name": "embed_rich",
-    "template": "You help me get embeddings for a sentence that will help me to determine semantic sentence similarity. I provide you a sentence and you reply only with that exact sentence. Context = "
-    
+    "template": "You help me get embeddings for a sentence that will help me to determine semantic sentence similarity. I provide you a sentence and you reply only with that exact sentence. Context = "   
   }
