@@ -1,0 +1,8 @@
+{
+    "name": "rationality_topic_relevance",
+    "template": "Does this comment refer to a societally or politically relevant issue (i.e. on-topic)? \nInstruction: Code YES when the comment mainly discusses a social or political issue. This includes comments that do not only explicitly but also implicitly refer to a social or political issue. If it is hard to identify which scial issue is being referred from the comment, it should be coded as No. However, if a comment contains politically relevant word (e.g. traitor, justice) without necessarily mentioning a specific opolitical figure or event, it can still be coded as YES for discussing political issues. \nExample: 'Hillary's anti-gun stance will lose her election.'\nException 1: Code it as NO if the comment does not deal with social or political issues but rather personal issues (e.g. 'I need a friend. It would be nice to talk to somebody about my feelings') or entertainment issues (e.g. about celebrities or TV shows).\nException 2: Code it as NO if the comment is only a media company (e.g. 'fake news again from CNN'), without referring to a specific social or political issue. \\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

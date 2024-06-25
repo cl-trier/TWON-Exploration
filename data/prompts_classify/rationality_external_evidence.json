@@ -1,0 +1,8 @@
+{
+    "name": "rationality_external_evidence",
+    "template": "Does this comment try to justify its argument with an external evidence?\nInstruction: Code YES when the comment elaborates on the opinion by facts, figures, policy documents, politician's speeches or other verifiable evidence. Code YES when the comment refers to authorities or experts to support the argument. The use of words such as 'because', or 'accordung to', can signal the attempt of justification. Even if the comment does not show the 'main claim' that the external source is trying to elaborate on, it can still be coded as YES (e.g. ''Elite $PENDERS! $$$$ Pelo$i $pending Shutdown at Hawaii Re$ort ... Maxine Water$ in Bahama$...$$$$ - Drudge Report'.)\nExample 1: 'In an interview, he said 'f****ng his way through the seventies was his personal vietnam'.' This is your president, trump apologist.'\nExample 2: 'Climate change is a hoax, just see this website: XXXXX'\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

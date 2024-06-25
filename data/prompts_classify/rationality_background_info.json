@@ -1,0 +1,8 @@
+{
+    "name": "rationality_background_info",
+    "template": "Does this comment analyze the background of the issue?\nInstruction: Code YES when the comment builds up an argument based on the analysis about the background of the issue. Code YES when the comment tries to make an argument after having an understanding of the broader context.\nExample 1: 'So let me get this straight. The women brought in less money than the men by roughly ten fold, but the women were paid a higher percentage of the total they brought in and somehow that translates into sexism? In order to pay the women an equal amount, they have to pay the women MORE than the total that they brought in, thus making it a losing proposition for FIFA, at which point they would stop including women altogether.'\nExample 2: 'What I find interesting is that with a Republican picked Attorney General, she hasn't been inidcted for anything'\nExample 3: 'I'm an American citizen who is also a minority, yet the only time I felt like I was put into a corner was by liberals after I expressed my honest opinions. After getting called names like token minority and being called a stupid Asian' (personal anecdote). \\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

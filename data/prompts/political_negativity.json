@@ -1,8 +1,0 @@
-{
-  "name": "political_negativity",
-  "template": "Classify the following message as [political/negative] (1) or not [political/negative] (0). These messages are from the German context.\n\nRespond with only the predicted class (0 or 1) of the request.\n\nText: {text}\nClass:",
-  "classes": {
-    "0": "not political/negative",
-    "1": "political/negative"
-  }
-}
