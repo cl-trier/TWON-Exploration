@@ -26,7 +26,7 @@ class HFClassify:
         ])
 
     def model_forward(self, batch: typing.List[str]) -> torch.tensor:
-        return self.model(**self.tokenizer.batch_encode_plus(batch, padding=True, return_tensors="pt")).logits
+        return self.model(**self.tokenizer.batch_encode_plus(batch, truncation=True, return_tensors="pt", max_length=512, padding='max_length')).logits
 
     def extract_label(self, batch_logits: torch.tensor, theta: float) -> typing.Iterator[typing.Set[str]]:
         batch_norm_logits: torch.tensor = (self.normalize_fn(batch_logits) >= theta).int()

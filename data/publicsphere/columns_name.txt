@@ -1,0 +1,6 @@
+{'meta_info':['Mark_ID','Genre','Anonymity','author','commentText','showName','videoTitle','description'],
+                'interactivity':['Interaction','Acknowledgement'],
+                'rationality':['TopicRelevance','Reasoning','BackgroundInfo','ExternalEvidence','ExternalEvidence_1_TEXT'],
+                'diversity':['Opinion','disagreement','Ideologicaldirection'],
+                'incivility':['Name-calling','Vulgarity','Attack reputation','Question Intelligenc','All-caps function','Sarcasm to criticize', 'Individual_right','discrimination','Invoke violence'],
+                'tone':'tone'}

@@ -168,3 +168,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+data/publicsphere/Data_FixedCodingMistakes_noICR_ReadyForAnalysis.csv
+data/publicsphere/full_data.csv
+data/publicsphere/topic_youtube_comments_and_posts_ALL_strat_sample_orderbyMB_ReadyForCoding.xlsx
+data/publicsphere/Twitter_full-text-merged-with-comments_n300pergenre.xlsx
+data/publicsphere/youtube_general_subsample2_n850.xlsx
+data/publicsphere/0. Merge_comments&metainfo.ipynb
