@@ -1,0 +1,18 @@
+embed_Llama3_arg_context: typing.Dict[str, np.ndarray] = {}
+
+name = "embed_llama3"
+template = 'You help me get embeddings for a sentence. I provide you a with a context and a sentence and you reply only with that exact sentence. Context = '
+for index, row in tqdm.tqdm(arguments_df.iterrows(), total=len(arguments_df)):
+    context = 'arguments about ' + row["label"]
+    sentence = row["arguments"]
+    try: 
+        embed = np.array(requests.post(
+            'https://inf.cl.uni-trier.de/embed/',
+            json={'model': MODEL, 'prompt': template + context + '; Sentence: ' + sentence}
+            ).json()["response"])
+    except Exception as _e:
+        logging.warning(_e)
+        embed = None
+    
+    if name=='embed_llama3':
+        embed_Llama3_arg_context[index] = embed

@@ -174,3 +174,5 @@ data/publicsphere/topic_youtube_comments_and_posts_ALL_strat_sample_orderbyMB_Re
 data/publicsphere/Twitter_full-text-merged-with-comments_n300pergenre.xlsx
 data/publicsphere/youtube_general_subsample2_n850.xlsx
 data/publicsphere/0. Merge_comments&metainfo.ipynb
+data/.DS_Store
+test
