@@ -13,3 +13,14 @@ report/2024-05--Simulation/publicsphere.cardiff_prompt_classify_s.json
 report/2024-05--Simulation/publicsphere.cardiff_prompt_classify_s.parquet
 report/2024-05--Simulation/publicsphere.prompt_classify.json
 report/2024-05--Simulation/publicsphere.prompt_classify.parquet
+report/2024-05--Simulation/pubsphere.MXBAIembeds.parquet
+data/Coarse_discourse_Reddit/redditdata.parquet
+report/2024-05--Simulation/pubsphere.claim_embed.parquet
+report/2024-05--Simulation/pubsphere.claim.parquet
+src/__pycache__/__init__.cpython-312.pyc
+src/__pycache__/distance_metric.cpython-312.pyc
+src/__pycache__/hf_classify.cpython-312.pyc
+src/__pycache__/prompt_classify.cpython-312.pyc
+src/__pycache__/sent_embedder.cpython-312.pyc
+__pycache__/config.cpython-312.pyc
+report/2024-05--Simulation/embedding_validation_context_general
