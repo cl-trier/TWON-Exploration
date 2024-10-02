@@ -1,0 +1,4 @@
+redditdata.parquet
+sjoerdreddit.env
+venv/
+coarse_discourse_dump_reddit.json
