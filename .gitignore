@@ -25,3 +25,5 @@ src/__pycache__/sent_embedder.cpython-312.pyc
 __pycache__/config.cpython-312.pyc
 report/2024-05--Simulation/embedding_validation_context_general
 report/2024-05--Simulation/reddit3000.parquet
+data/MH_BClemm_data/germany_val_all.csv
+data/MH_BClemm_data/germany_val_all_llama.parquet

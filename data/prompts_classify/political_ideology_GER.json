@@ -1,0 +1,8 @@
+{
+    "name": "political_ideology_GER",
+    "template": "Klassifizieren Sie die folgende Nachricht als ideologisch Links (0), ideologisch Mitte (1) oder ideologisch Rechts (2). Ideologie wird hier im Kontext des deutschen politischen Systems definiert. Nachrichten ohne ideologischen Inhalt werden klassifiziert als Mitte.\n\nAntworten Sie nur mit der vorhergesagten Klasse (0 oder 1 oder 2) der Anfrage.\n\nText: {text}\nKlasse:",
+    "classes": {
+        "0": "Links",
+        "1": "Mitte",
+        "2": "Rechts"    }
+}

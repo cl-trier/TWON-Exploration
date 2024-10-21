@@ -13,7 +13,7 @@ class PromptClassify(pydantic.BaseModel):
     template: str
     classes: typing.Dict
 
-    def __call__(self, samples: pd.Series, model: str):
+    def __call__(self, samples: pd.Series, model: str, options: dict):
         predictions: typing.Dict[typing.Hashable, str | None] = {}
 
         for index, value in tqdm.tqdm(
@@ -28,8 +28,9 @@ class PromptClassify(pydantic.BaseModel):
                         json={
                             'model': model,
                             'system': self.template,
-                            'prompt': self.template.format(text=value)
-                        }).json()['response'].strip(),
+                            'prompt': self.template.format(text=value),
+                            'options': options
+                            }).json()['response'].strip(),
                     None
                 )
 

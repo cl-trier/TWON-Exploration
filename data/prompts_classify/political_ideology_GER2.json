@@ -1,0 +1,8 @@
+{
+    "name": "political_ideology_GER2",
+    "template": "Klassifizieren Sie die folgende Nachricht als ideologisch Linksliberal (0), ideologisch Mittlere Mitte (1) oder ideologisch Konservativ (2). Ideologie wird hier im Kontext des deutschen politischen Systems definiert. Nachrichten ohne ideologischen Inhalt werden klassifiziert als Mittlere Mitte.\n\nAntworten Sie nur mit der vorhergesagten Klasse (0 oder 1 oder 2) der Anfrage.\n\nText: {text}\nKlasse:",
+    "classes": {
+        "0": "Linksliberal",
+        "1": "Mittlere Mitte",
+        "2": "Konservativ"    }
+}
