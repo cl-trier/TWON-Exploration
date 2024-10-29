@@ -42,4 +42,5 @@ class PromptClassify(pydantic.BaseModel):
 
     @classmethod
     def from_json(cls, path: str) -> "PromptClassify":
-        return cls(**json.load(fp=open(path)))
+        with open(path, encoding='utf-8') as fp:    # I added encoding='utf-8' to fix the UnicodeDecodeError
+            return cls(**json.load(fp))

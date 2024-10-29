@@ -1,0 +1,8 @@
+{
+    "name": "intolerance_rights",
+    "template": "Does this discussant threaten individual rights (e.g. one’s personal freedom to speak or vote)?\n \nInstruction: A comment ought to be coded as containing Yes (1) if it advocates restricting the rights or freedoms of certain members of society or certain individuals.\nSuch examples are common when sensitive or divisive political issues are being discussed, because commenters often resort to threatening one another or often advocate restricting the rights of groups or individuals they blame for the event which led the issue to be discussed. \nExample (Code as Yes (1)): ‘They should all be locked up.’ Or: ‘Please shut up, you have Nothing useful to say’\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

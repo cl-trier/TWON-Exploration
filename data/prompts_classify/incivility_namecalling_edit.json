@@ -1,0 +1,8 @@
+{
+    "name": "incivility_namecalling_edit",
+    "template": "Task: Identify if the comment contains targeted name-calling.\nInstructions:\nName-calling involves insulting or demeaning nouns directed at a person or group, such as “weirdo,” “fool,” “moron,” or derogatory nicknames (e.g., calling Hillary Clinton 'Hellary'). Code Yes (1) if:\nThe comment uses a noun as an insult or slur directed at someone.\nWords like 'traitor', 'racist', 'pedophile', or 'Nazis' appear, but only if they are clearly intended as insults rather than descriptive of behavior or policy.\nExamples of name-calling (Yes (1)):\n'Donald Trump is an old fool. Only a fool would follow another fool.'\n'Good did prevail...that's why Hellary Rotten Clinton did not become president.'\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "rationality_external_evidence_edit",
+    "template": "Task: Determine if the comment supports its argument with external evidence.\nInstructions:\nCode Yes (1) if the comment uses external evidence, such as:\nFacts, figures, policy documents, or verified statements.\nCitations of authority (e.g., experts, politicians).\nPhrases like 'because' or 'according to' indicating justification.\nNote: Code Yes (1) even if the main claim is not explicitly stated.\nExample Comments (Yes (1)):\n'In an interview, he said 'f****ng his way through the seventies was his personal Vietnam'. This is your president, trump apologist.'\n'Climate change is a hoax, just see this website: XXXXX.'\n'Elite $PENDERS! $$$$ Pelo$i $pending Shutdown at Hawaii Re$ort ... Maxine Water$ in Bahama$...$$$$ - Drudge Report'\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

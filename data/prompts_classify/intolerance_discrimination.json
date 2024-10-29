@@ -1,0 +1,8 @@
+{
+    "name": "intolerance_discrimination",
+    "template": "Does this comment contain discriminatory intent toward other people or groups?\nInstruction: Code as Yes (1) when the comment contains discrimination towards other people or groups, based on nationality (i.e. xenophobia), sexual preference (e.g. homophobia), race (i.e. racism), religion, gender, or economic-social status.\nExample 1 (homophobia, code as Yes (1)): ‘Pink water? Damn those liberals. Now they are turning the water gay.’\nExample 2 (racism, code as Yes (1)): ‘@Cosmo Joe The jews are a real threat, have you heard of the USS liberty incident?’\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

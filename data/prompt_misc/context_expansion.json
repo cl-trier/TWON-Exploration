@@ -1,0 +1,4 @@
+{
+    "name": "context_expansion",
+    "template": "Instruction:\nYou verbalize the meaning of a social media post given the preceding comments in the thread. You will be provided with a thread of comments enclosed in chevrons  <..> and a target post enclosed in double chevrons <<...>>.\nYou respond with the target reply-post, but, if it contains words alluding to the original post, you expand on them so that their meaning is preserved without the preceding comment. Your response is worded as a social media post. If the meaning of the target reply-post is not affected by the context of the original post, you reply with a verbatim copy of the target reply-post.\\n\\nText: {text}"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "diversity_position",
+    "template": "Does this comment express a position (either in favor/supporting or against) on a given societal/political issue?\n Code YES (1) when the comment takes a clear position on the topic of discussion, whether it is being for or against. Code YES (1) when the comment shows a stand of supporting/against a politician/political party, either explicitly or implicitly. The specific issue addressed in the comment does NOT have to be recognizable, as long as it seems to be socially or politically related (i.e. you do not have to be entirely sure which party or perspective that the commenter is agreeing or opposing to). Discussing news media is considered as a social/political issue (e.g. 'CNN reports fake news' should be coded as Yes (1)). Unlike Topic-relevance, just mentioning or criticizing news media is also considered as Yes (1). \nExample 1: 'I think global warming invented natural disasters.'\nExample 2: 'Israel and Satan are in control over Trump.'\nException 1: Showing opinion on other issues than social/political issues (e.g. entertainment issues) should be coded as No (0). For example: 'It happened to me before. When horrible Lilly Singh was on this show!'.\nException 2: Only attacking another commenter should be coded as No (0). For example: '@mothgirlwings out of line.  Which handmaid's universe are you from?'\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

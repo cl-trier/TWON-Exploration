@@ -1,0 +1,8 @@
+{
+    "name": "intolerance_violence",
+    "template": "Does this comment suggest or invoke violence?\nInstruction: Code Yes (1) if this comment contains intention to call on behaviours that involve physical force intended to hurt, damage, or kill someone (e.g. by gun).\nExample (code as Yes (1)): ‘Hopefully someone shoots at him and his family one day.’\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "incivility_question_intelligence",
+    "template": "Does this comment question other people's intelligence or accuse their incompetence? \nInstruction: You may code this as Yes (1) if the comment is explicitly questioning another person’s capability of taking up a position (e.g. the present) or handling tasks. \nCode Yes (1) also when the comment explicitly attacks another person's lack of intelligence (e.g. calling somebody an idiot, fool or moron), also when this happens through name-calling.\nExample 1 (code Yes (1): ‘Trump/Clinton is a stupid moron!’\nExample 2 (code Yes (1)): ‘It wasn't Trump's fortitude that got him elected. He was elected because of Russian interference, because of their smear campaign against Hillary, and because there is a segment of the American population who fell, and continue to fall…’\nExample 3 (code Yes (1)): ‘Most of Trump's supporters are living examples of what can happen when the reptile brain is overstimulated.’\nException 1: Saying somebody is wrong is not necessarily questioning another person’s intelligence should be code No (0) (e.g. ‘@Taekwon Yoo haha let me give u 10 articles that conclude with climate change being a fact proven by data.’)\nException 2: Saying that someone should not be taking up a position (e.g. president) without explaining that the person is incompetent or unintelligent should be coded as No (0) (e.g. ‘Whoever hacked exposed Hillary as a lying crooked corrupt bitch unqualified to be president’; ‘Haters of this country should not be running it!’)\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

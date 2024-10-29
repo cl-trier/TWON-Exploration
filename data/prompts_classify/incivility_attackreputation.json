@@ -1,0 +1,8 @@
+{
+    "name": "incivility_attackreputation",
+    "template": "Does this comment attack someone’s reputation or integrity?\nInstruction: All comments containing ‘an attack on the reputation or integrity of someone or something’ ought to be coded as Yes (1).\nAll comment implying disingenuousness (e.g. liar, dishonest, fraud, etc) or morally wrong behavior (e.g. racist, treason, traitor) of someone or something ought to be coded as Yes (1).\nExample 1 (explicit, code as Yes (1)): 'TRUMP is now being very, very paranoid! Wow! This person just gets worse and worse!! I wish and pray that he would quit attacking my fellow Americans!!!!!'\nExample 2 (implicit, code as Yes (1)): 'Yup..my Mom's friend used to abuse prescription drugs, and she talked like this, EXACTLY'\nExample 3 (implying disingenuousness, code as Yes (1)) : 'Long as they get the biggest crook (the lying Trump) I don't care.'\nException 1: A comment which is simply name-calling someone, but is not attacking about someone's behavior, should be coded as No (0). (e.g.'lunatic LEFTIST moron. Didn't her Chief of staff just resign the other day over sexual harassment charges.')\nException 2: A comment which simply says someone is wrong, without implying someone is intentionally lying or disingenuous, should be coded as No (0). ('@Taekwon Yoo haha let me give u 10 articles that conclude with climate change being a fact proven by data.')\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

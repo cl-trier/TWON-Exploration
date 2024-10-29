@@ -1,0 +1,9 @@
+{
+    "name": "political_ideology_ext",
+    "template": "Your task is to determine the political leaning of the given social media post. Please classify each post into one of the following categories:\nLeft (0): This content contains viewpoints typically associated with left-wing or center-left German politics. This includes advocacy for social welfare programs, environmental protection, progressive social policies, workers' rights, and increased public spending.\nNeutral (1): This content is either unpolitical, neutral, balanced, or purely factual. This includes objective news reporting, general information about government processes, or non-partisan public service announcements.\nRight (2): This content contains viewpoints typically associated with conservative or center-right German politics. This includes advocacy for fiscal conservatism, traditional values, business-friendly policies, and market liberalization.\nMessages with no ideological content are classified as neutral.\n\nRespond with only the predicted class (0 or 1 or 2) of the request.\n\nText: {text}\nClass:",
+    "classes": {
+        "0": "Left",
+        "1": "Neutral",
+        "2": "Right"
+    }
+}

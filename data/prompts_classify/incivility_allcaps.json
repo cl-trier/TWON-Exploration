@@ -1,0 +1,8 @@
+{
+    "name": "incivility_allcaps",
+    "template": "Does this comment use all-caps function to express SHOUTING?\nInstruction: Code Yes (1) when one or more words are capitalized to express SHOUTING. Exclamation mark at the end can signal shouting.\nExample 1 (Code as Yes (1)): ‘YOU PEOPLE ALL HAVE BIGGER ISSUES . LOOK IN THE MIRROR YOUR NO (0)T PERFECT..NO (0) ONE IS. LET'S STOP BEING HYPOCRITES.. ‘\nExample 2 (Code as Yes (1)): ’What's f*cking next? Someone orders a Coke instead of a Pepsi? SODA-GATE!’\nExample 3 (Code as Yes (1)): ‘Not our responsibility to take care of ILLEGALS abusing the asylum system.’\nException: Code No (0) when the comment involves all-caps function not meant for shouting (e.g. when some words are capitalized for acronyms or abbreviations, like MAGA).\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

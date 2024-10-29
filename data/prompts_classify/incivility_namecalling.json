@@ -1,0 +1,8 @@
+{
+    "name": "incivility_namecalling",
+    "template": "Does this comment contain targeted name-calling?\nInstruction: Name-calling is a form of verbal abuse in which insulting or demeaning labels are directed at an individual or group (e.g. (code Yes (1)) weirdo, loser, buffoon,  fool, idiot, moron, letch, coward, liar). The name-calling word must be a noun, rather than an adjective. Calling bad nicknames of a person is also considered as name-calling (e.g. (code Yes (1)) calling Hillary as 'Hellary').\nDemeaning labels are not always name-calling. Traitor, racist, ostriches, pedophile, and Nazis, logically, could be name-calling in many instances (code Yes (1)). However, when they are used in the context of actual behavior or policy, and are clearly not intended to insult another person, it should be coded as No (0).\nExample 1 (code as Yes (1)): 'Donald Trump is an old fool. Only a fool would follow another fool.'\nExample 2 (code as Yes (1)): 'Good did prevail....that's why Hellary Rotten Clinton did not become president.' Code Yes (1) if name-calling is used at least once in the comment. \\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

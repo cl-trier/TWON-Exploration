@@ -1,0 +1,8 @@
+{
+    "name": "incivility_vulgarity",
+    "template": "Does this comment contain vulgar language?\nInstruction: All comments containing vulgar language (e.g. f*ck, p*ss off, d*ck head, a**hole, b*tch, crap, sh*t, g*dd*mn, etc.) should be coded as Yes (1). Comments containing vulgar language/swear word abbreviations such as WTF (what the fuck) should also be coded as Yes (1). Comments missing some letters of vulgar language/ swear word (e.g. f@cking) but you know it is meant to be vulgar language/swear word should also be coded as Yes (1).\nExample (code as Yes (1)): 'If stupid could fly, she'd be a f@cking jet!'\nException: Suck is NOT considered as vulgar language in most instances (“that sucks”), unless it is used in a verbal way clearly referring to a sexual act.\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

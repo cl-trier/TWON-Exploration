@@ -1,0 +1,8 @@
+{
+    "name": "rationality_reasoning_edit",
+    "template": "Task: Identify if the comment justifies its opinion with explicit reasoning or argumentation.\nInstructions:\nCode Yes (1) if the comment:\nExplicitly supports its opinion using any form of reasoning or argumentation.\nUses words like 'because', 'due to', or 'therefore', which often indicate justification (but the presence of these words is not required if it clearly uses any form of reasoning ).\nExamples:\nYes (1) - 'Trump is pure evil, he pushes for nuclear war'\nYes (1) - 'Our out of control obesity epidemic would make this event impossible in the states'\nYes (1) - Explicit reasoning with 'because': 'Fox News watchers evidently, right? Because all the rest of us know Trump has lied more than, probably, any other American citizen, EVER!'\nYes (1) - Implicit reasoning without 'because': 'Dems’ policies will destroy the economy and society...keep them out/shutdown!'\nCode No (0) if the comment does not provide any reasoning or argumentation to support its opinion or when you cannot decide.\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

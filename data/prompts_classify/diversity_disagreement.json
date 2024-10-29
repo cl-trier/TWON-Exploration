@@ -1,0 +1,8 @@
+{
+    "name": "diversity_disagreement",
+    "template": "Does this commenter disagree with the comment of another discussant?\nInstruction: Code Yes (1) when the comment shows an attempt to pose an opposing argument of the previous comment. Code Yes (1) when the comment refutes a previous comment. The disagreement should be explicit: In case of doubt, code No (0). So, don't search for a disagreement in the comment, it should immediately be obvious.\nExample 1 (explicit): '@Aubrey Calliope you're a fool, if those men wanted to take down the US government they would've.'\nExample 2: 'No, that is simply not true'\nExample 3 (implicit): '@Taekwon Yoo HAHA, let me give u 10 articles that conclude with climate change being a fact proven by data.'\nException 1: If you are not sure whether the comment is disagreeing with another comment, or it is just an answer to a question of another comment, then you should code it as No (0). E.g. '@Michael T there was never a remake. That movie never happened. Nope, did not happen.'\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

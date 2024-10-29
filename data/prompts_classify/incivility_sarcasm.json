@@ -1,0 +1,8 @@
+{
+    "name": "incivility_sarcasm",
+    "template": "Does this comment contain sarcasm or satire to target somebody/something else?\nInstruction: Code YES (1) if this comment uses humor, irony, exaggeration, or ridicule to expose and criticize someone else’s stupidity or vices. Only code Yes (1) when it is TOTALLY SURE that the comment is using a sarcastic tone (in case of doubt, code No (0)).\nExample (Code as Yes (1)): ‘@cyber blonde Little girl, it will take more than your senseless babble to get a real response. Go play with your dolls and leave the thinking to anyone with a brain. D*MB*SS!’\nException (Code as No (0)): if the comment does NOT criticize someone else’s stupidity or vices, even though it uses humor (e.g. ‘this is why I always carry my subway sandwich. you never know when you might have to defend yourself.’ should be coded as No (0))\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

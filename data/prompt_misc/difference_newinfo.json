@@ -1,0 +1,4 @@
+{
+    "name": "difference_newinfo",
+    "template": "Instruction:\n You determine whether a new posts adds any new information to a thread of social media posts. Classify the following text enclosed in double chevrons <<...>>, if it adds new information (1) or not (0) to the preceding posts, enclosed in single chevrons <...>.\n\nRespond with only the predicted class (0 or 1) of the request.\n\nText: <<{text}>>, preceding posts: <{thread}>\nClass:"
+}
