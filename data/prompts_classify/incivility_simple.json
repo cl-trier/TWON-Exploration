@@ -1,0 +1,8 @@
+{
+    "name": "incivility_simple",
+    "template": "Determine if a social media comment displays incivility\n\n\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

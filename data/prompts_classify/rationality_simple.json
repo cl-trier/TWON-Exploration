@@ -1,0 +1,8 @@
+{
+    "name": "rationality_simple",
+    "template": "Task: Determine if the comment shows rational analysis, support with evidence, or structured reasoning.\n\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+       "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

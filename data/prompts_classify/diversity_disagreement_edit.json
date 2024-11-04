@@ -1,0 +1,8 @@
+{
+    "name": "diversity_disagreement_edit",
+    "template": "Instruction: Code Yes (1) if the comment clearly expresses opposition or contradiction to another user's statement, presenting an alternate view or explicitly refuting a prior comment. The disagreement should be apparent without needing interpretation. If unsure, code No (0).\nExamples:\nExplicit disagreement: ‘@Aubrey Calliope you're a fool, if those men wanted to take down the US government they would've.’\nSimple negation: ‘No, that is simply not true’\nSarcastic/implicit disagreement: @Taekwon Yoo HAHA, let me give u 10 articles that conclude with climate change being a fact proven by data.’ \nException: If the comment could be a response rather than a disagreement (e.g., answering a question or clarifying information), code No (0). Example: ‘@Michael T there was never a remake. That movie never happened. Nope, did not happen.’\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}
