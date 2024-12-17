@@ -31,3 +31,7 @@ inter_coder_reliability.csv
 37b-Notebook_Monika_2.Topic_model.ipynb
 data/publicsphere/test.csv
 data/publicsphere/train.csv
+sjoerdAzure.env
+data/publicsphere/publicsphere.interactivity_gpt4o.json
+data/publicsphere/classifications4.json
+data/publicsphere/classifications4.parquet

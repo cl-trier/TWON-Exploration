@@ -1,0 +1,8 @@
+{
+    "name": "rationality_jaidka",
+    "template": "This tweet is a reply on Twitter (i.e., a Tweet) to a United States member of the Congress. Please classify this tweet according to whether it has a justification. Read the tweet. Determine which category best describe the tweet. Code YES (1): If this tweet contains personal feelings or experiences. Also code YES (1) If this tweet contains facts, links or evidence from other sources. Code NO (0) If this tweet does not offer a justification. \n\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
+       "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}
