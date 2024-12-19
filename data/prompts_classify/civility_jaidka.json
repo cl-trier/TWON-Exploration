@@ -1,0 +1,8 @@
+{
+    "name": "civility_jaidka",
+    "template": "This tweet is a reply on Twitter (i.e., a Tweet) to a United States member of Congress. Please classify the tweet according to whether it is positive/respectful.\n\n### Instructions ###\n\n- Code YES (1): When the tweet shows respect, positivity, or empathy towards others.\n - Examples:\n - 'Thank you for your hard work and dedication to this cause.'\n - 'I may not agree with you, but I admire your commitment to your principles.'\n\n- Code NO (0): When the tweet is not particularly positive or respectful.\n - Examples:\n - 'Your ideas are completely misguided.'\n - 'This is just another example of bad leadership.'\n - 'Why don’t you focus on real issues instead of this nonsense?'\n\n### Response Format ###\n\nRespond only with the predicted class (0 or 1).\n\nText: {text}\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

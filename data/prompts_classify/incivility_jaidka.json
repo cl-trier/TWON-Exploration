@@ -1,0 +1,8 @@
+{
+    "name": "incivility_jaidka",
+    "template": "This tweet is a reply on Twitter (i.e., a Tweet) to a United States member of Congress. Please classify this tweet according to whether it is uncivil.\n\n### Instructions ###\n\n- Code YES (1): When the tweet exhibits uncivil behavior. This includes:\n - Abuses and sledging: The tweet contains ideological extremes, abusive language, or stereotypes.\n - Examples:\n - 'Liberal potheads are ruining this country.'\n - 'You’re such a moron.'\n - 'Backward terrorist scum.'\n - Threatening behavior: The tweet threatens individual freedoms, specific individuals, or democracy.\n - Examples:\n - 'You people better shut up.'\n - 'The American people must take him down.'\n - Exaggeration: The tweet uses exaggerated arguments.\n - Examples:\n - 'It’s very easy to solve all of this, just keep your legs closed if you don’t want a baby.'\n\n- Code NO (0): When the tweet does not exhibit any of the above and is not particularly uncivil.\n\n### Response Format ###\n\nRespond only with the predicted class (0 or 1).\n\nText: {text}\nClass:",
+        "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

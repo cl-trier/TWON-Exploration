@@ -1,0 +1,8 @@
+{
+    "name": "political_post_jaidka",
+    "template": "This tweet is a reply on Twitter (i.e., a Tweet) to a United States member of Congress. Please classify this tweet according to whether it is about politics.\n\n### Instructions ###\n\n- Code YES (1): When the tweet is probably about politics.\n\n- Code NO (0): When the tweet is irrelevant to politics.\n\n### Response Format ###\n\nRespond only with the predicted class (0 or 1).\n\nText: {text}\nClass:",    
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

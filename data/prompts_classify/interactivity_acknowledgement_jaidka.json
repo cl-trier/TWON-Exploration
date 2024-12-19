@@ -1,0 +1,8 @@
+{
+    "name": "reciprocity_jaidka",
+    "template": "This tweet is a reply on Twitter (i.e., a Tweet) to a United States member of Congress. Please classify this tweet according to whether it shows reciprocity.\n\n### Instructions ###\n\n- Code YES (1): When the tweet asks genuine questions designed to elicit opinions or information.\n - Examples:\n - 'Where is the money coming from? Increased taxes?'\n - 'What is your plan to address this issue?'\n\n- Code NO (0): When the tweet does not ask a genuine question or asks rhetorical questions.\n - Examples:\n - 'You have no idea how limiting Medicaid coverage can be, do you?'\n - 'Do you even care about the people you’re supposed to represent?'\n\n### Response Format ###\n\nRespond only with the predicted class (0 or 1).\n\nText: {text}\nClass:",
+        "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

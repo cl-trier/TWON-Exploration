@@ -35,3 +35,4 @@ sjoerdAzure.env
 data/publicsphere/publicsphere.interactivity_gpt4o.json
 data/publicsphere/classifications4.json
 data/publicsphere/classifications4.parquet
+.vs/

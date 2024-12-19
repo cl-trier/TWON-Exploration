@@ -1,0 +1,8 @@
+{
+    "name": "constructiveness_jaidka",
+    "template": "This tweet is a reply to a United States member of Congress on Twitter. Please classify the tweet as either constructive or not constructive. Follow these guidelines:\n\n### Instructions ###\n\n- Code YES (1) if the tweet is constructive, meaning it includes one or more of the following:\n - Fact-checking: The tweet challenges the accuracy of statements with evidence or clarifications.\n - Examples:\n - 'That’s not a real quote. More importantly, since then the DNC has embraced racially progressive stances.'\n - 'Not exactly true... she’s tried to invent a Native American heritage that failed epically.'\n - Searching for common ground: The tweet seeks mutual understanding or agreement.\n - Examples:\n - 'You are undoubtedly right. No matter how Conservative I am, I’m still a Mom and my heart strings get tugged easily.'\n - 'I’m all for progressive change, but too much will lead to repeat 2016.'\n - 'We can keep getting lost in the weeds.'\n - 'We are not all like that :)'\n - Offering solutions: The tweet proposes actionable ideas or solutions.\n - Examples:\n - 'It would be WONDERFUL if the House & Senate committees looked into...'\n - 'Also, no one is blaming Pence or Sec. Price for not getting it passed. Why not?'\n\n- Code NO (0): If the tweet does not meet any of the above criteria and is not constructive.\n\n### Response Format ###\n\nRespond only with the predicted class (0 or 1).\n\nText: {text}\nClass:",   
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}
