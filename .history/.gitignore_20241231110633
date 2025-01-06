@@ -39,9 +39,5 @@ data/publicsphere/classifications4.parquet
 report/2024-05--Simulation/pubsphere_YT_posts.parquet
 data/TWON_German_data/
 data/Jaidka2022/
-report/2024-05--Simulation/reddit3000_pol_posts_claims.parquet
-report/2024-05--Simulation/pubsphere_pol_posts.parquet
 report/2024-05--Simulation/reddit3000_pol_posts.parquet
-report/2024-05--Simulation/pubsphere_YT_post_claim_exp_explode.parquet
-report/2024-05--Simulation/pubsphere_YT_post_claim_explode.parquet
-report/2024-05--Simulation/pubsphere_YT_debate_threads.parquet
+report/2024-05--Simulation/reddit3000_pol_posts.parquet
