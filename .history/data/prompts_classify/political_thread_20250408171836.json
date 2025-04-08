@@ -1,0 +1,8 @@
+{
+    "name": "political_thread",
+    "template": "Classify the following message as following messages as political (1) or non-political (0). Political is defined as any message which is directly about a political topic, references political developments, or makes reference to a political figure, group, or agency. References to federal organisations are political, as are references to branches of government. Broad mentions of national economic developments are political, but discussions of individual stock prices are not.\n\nRespond with only the predicted class (0 or 1) of the request.\n\nText: {text}\nClass:",
+    "classes": {
+        "0": "non-political",
+        "1": "political"
+    }
+}
