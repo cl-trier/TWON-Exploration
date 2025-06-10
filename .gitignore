@@ -47,3 +47,12 @@ report/2024-05--Simulation/pubsphere_YT_post_claim_explode.parquet
 report/2024-05--Simulation/pubsphere_YT_debate_threads.parquet
 report/2024-05--Simulation/pubsphere_YT_posts_closest_preceding_distance.parquet
 report/2024-05--Simulation/reddit_polthread_llama31_7b.parquet
+data/Naab2025/
+report/2024-05--Simulation/Naab2025.parquet
+report/2024-05--Simulation/reddit_ptbod_depth1.parquet
+data/TWON_export_Nils/
+R/load_German_TWON_data.R
+R/sample_MHeseltine.R
+data/TWON_sample_MHeseltine/
+.gitignore/
+.history/
