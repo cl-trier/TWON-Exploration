@@ -1,5 +1,5 @@
 {
-    "name": "interactivity_acknowledgement_simple",
+    "name": "interactivity_acknowledgement_simple2",
     "template": "Does this comment refer to, acknowledge or respond to another user's comment?\nInstructions: Code Yes (1) if the comment shows agreement or disagreement with a specific user's statement, often signaled by a username or phrases like ‘Yes,’ ‘No,’ or ‘I agree.’ Code No (0) if it lacks a clear acknowledgment and does not mention another user, or is only an insult.\\n\\nRespond with only the predicted class (0 or 1) of the request.\\n\\nText: {text}\\nClass:",
     "classes": {
         "0": "No",

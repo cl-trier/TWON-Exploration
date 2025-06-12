@@ -1,0 +1,52 @@
+[
+    {
+        "prompt_label":"incivility_simple2",
+        "seed":43,
+        "paraphrased_prompt":"Is this comment uncivil?\nGuidelines: Mark Yes (1) if the comment contains name-calling, insults, provocative language, sarcasm, shouting (ALL CAPS), profanity, discrimination, threats, or limitations on rights. Mark No (0) if these elements are absent.\n\n\\n\\nReply with just the predicted category (0 or 1) for the request.\\n\\nText: {text}\\nCategory:"
+    },
+    {
+        "prompt_label":"interactivity_acknowledgement_simple2",
+        "seed":43,
+        "paraphrased_prompt":"Is the comment a reference to, an acknowledgment of, or a reply to another user's remark?\nInstructions: Assign Yes (1) if the comment indicates agreement or disagreement with a particular user's opinion, typically marked by a username or expressions such as ‘Yes,’ ‘No,’ or ‘I agree.’ Assign No (0) if it does not clearly recognize another user, or if it is solely an insult.\\n\\nReply with just the predicted class (0 or 1) for the request.\\n\\nText: {text}\\nClass:"
+    },
+    {
+        "prompt_label":"political_ideology_US",
+        "seed":43,
+        "paraphrased_prompt":"Categorize the given message according to its ideological stance as liberal (0), neutral (1), or conservative (2). The ideology is considered within the framework of the US political landscape. If the message lacks ideological content, it should be marked as neutral.\n\nProvide just the anticipated classification (0, 1, or 2) for the inquiry.\n\nMessage: {text}\nClassification:"
+    },
+    {
+        "prompt_label":"political_post",
+        "seed":43,
+        "paraphrased_prompt":"Determine whether the given message should be categorized as political (1) or non-political (0). A message is considered political if it directly addresses a political issue, refers to political events, or mentions a political person, entity, or institution. Mentions of federal bodies are political, as are references to government branches. General discussions about national economic trends are political, whereas talks about specific stock prices are not.\n\nReply with just the expected classification (0 or 1) for the inquiry.\n\nText: {text}\nClass:"
+    },
+    {
+        "prompt_label":"rationality_simple2",
+        "seed":43,
+        "paraphrased_prompt":"Assess whether the comment offers logical evaluation.\nGuidelines: Assign Yes (1) if the comment contains:\nContext or background information,\nSupporting evidence (facts, sources, expert opinions),\nLogical reasoning or organized argumentation.\nAssign No (0) if these elements are missing.\n\\n\\nProvide solely the anticipated classification (0 or 1) of the inquiry.\\n\\nText: {text}\\nClass:"
+    },
+    {
+        "prompt_label":"incivility_simple2",
+        "seed":42,
+        "paraphrased_prompt":"Determine if the comment shows incivility.\nGuidelines: Assign Yes (1) if the comment contains name-calling, insults, provocative language, sarcasm, yelling (ALL CAPS), offensive language, bias, threats, or limitations on freedoms. Assign No (0) if these elements are absent.\n\n\\n\\nProvide only the predicted category (0 or 1) for the request.\\n\\nText: {text}\\nCategory:"
+    },
+    {
+        "prompt_label":"interactivity_acknowledgement_simple2",
+        "seed":42,
+        "paraphrased_prompt":"Determine if this comment is referencing, recognizing, or replying to another user's comment.\nGuidelines: Assign Yes (1) if the comment indicates concurrence or opposition to a particular user's remark, typically indicated by a username or expressions such as ‘Yes,’ ‘No,’ or ‘I agree.’ Assign No (0) if it does not explicitly acknowledge another user and does not mention them, or if it is merely derogatory.\n\nReply with only the anticipated category (0 or 1) of the request.\n\nText: {text}\nClass:"
+    },
+    {
+        "prompt_label":"political_ideology_US",
+        "seed":42,
+        "paraphrased_prompt":"Determine whether the given text aligns with liberal views (0), is ideologically neutral (1), or reflects conservative perspectives (2), according to the political landscape of the United States. Texts lacking ideological elements should be considered neutral.\n\nProvide only the class prediction (0, 1, or 2) for the text provided.\n\nMessage: {text}\nClassification:"
+    },
+    {
+        "prompt_label":"political_post",
+        "seed":42,
+        "paraphrased_prompt":"Determine whether the given message is political (1) or non-political (0). A message is considered political if it directly addresses a political subject, mentions political events, or refers to a political person, organization, or entity. Mentions of federal institutions and branches of government are political, as are general references to national economic trends. However, conversations about specific stock prices are not considered political.\n\nReply solely with the expected classification (0 or 1) of the message.\n\nText: {text}\nClass:"
+    },
+    {
+        "prompt_label":"rationality_simple2",
+        "seed":42,
+        "paraphrased_prompt":"Evaluate whether the comment offers logical examination.\nInstructions: Assign Yes (1) if the comment contains:\nContext or background information,\nEvidence (facts, references, experts),\nLogical reasoning or organized argumentation.\nAssign No (0) if these elements are missing.\n\\n\\nReply with only the anticipated class (0 or 1) for the request.\\n\\nText: {text}\\nClass:"
+    }
+]
