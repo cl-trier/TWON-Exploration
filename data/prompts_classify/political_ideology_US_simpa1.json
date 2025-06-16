@@ -1,0 +1,9 @@
+{
+    "name": "political_ideology_US_simpa1",
+    "template": "Classify the following message as ideologically liberal (0), ideologically neutral (1), or ideologically conservative (2). Ideology here is defined in the context of the US political system. Messages with no ideological content are classified as neutral.  \n\nRespond with only the predicted class (0 or 1 or 2) of the request.  \n\nText: {text}  \nClass:",
+    "classes": {
+        "0": "liberal",
+        "1": "neutral",
+        "2": "conservative"
+    }
+}

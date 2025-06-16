@@ -1,0 +1,27 @@
+[
+    {
+        "prompt_label":"incivility_simple2",
+        "seed":42,
+        "paraphrased_prompt":"Does this comment display incivility?  \nInstructions: Code Yes (1) if the comment includes name-calling, insults, inflammatory language, sarcasm, shouting (ALL CAPS), vulgarity, discrimination, threats, or restrictions on rights. Code No (0) if none of these are present.  \n\nRespond with only the predicted class (0 or 1) of the request.  \n\nText: {text}  \nClass:"
+    },
+    {
+        "prompt_label":"interactivity_acknowledgement_simple",
+        "seed":42,
+        "paraphrased_prompt":"Does this comment acknowledge or respond to another user's comment?  \nInstructions:  \nCode Yes (1) if the comment shows agreement or disagreement with a specific user's statement, often signaled by a username or phrases like ‘Yes,’ ‘No,’ or ‘I agree.’  \nCode No (0) if it lacks a clear acknowledgment or is only an insult.  \n  \nRespond with only the predicted class (0 or 1) of the request.  \n  \nText: {text}  \nClass:"
+    },
+    {
+        "prompt_label":"political_ideology_US",
+        "seed":42,
+        "paraphrased_prompt":"Classify the following message as ideologically liberal (0), ideologically neutral (1), or ideologically conservative (2). Ideology here is defined in the context of the US political system. Messages with no ideological content are classified as neutral.  \n\nRespond with only the predicted class (0 or 1 or 2) of the request.  \n\nText: {text}  \nClass:"
+    },
+    {
+        "prompt_label":"political_post",
+        "seed":42,
+        "paraphrased_prompt":"Classify the following message as following messages as political (1) or non-political (0). Political is defined as any message which is directly about a political topic, references political developments, or makes reference to a political figure, group, or agency. References to federal organisations are political, as are references to branches of government. Broad mentions of national economic developments are political, but discussions of individual stock prices are not.\n\nRespond with only the predicted class (0 or 1) of the request.\n\nText: {text}  \nClass:"
+    },
+    {
+        "prompt_label":"rationality_simple2",
+        "seed":42,
+        "paraphrased_prompt":"Does this comment provide rational analysis?  \nInstructions: Code Yes (1) if the comment includes:  \n- Context or background,  \n- Evidence (facts, sources, authorities),  \n- Reasoning or structured argument.  \nCode No (0) if these are absent  \n\nRespond with only the predicted class (0 or 1) of the request.  \n\nText: {text}  \nClass:"
+    }
+]

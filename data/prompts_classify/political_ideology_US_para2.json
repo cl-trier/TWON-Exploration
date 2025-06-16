@@ -1,0 +1,9 @@
+{
+    "name": "political_ideology_US_para2",
+    "template": "Determine whether the given text aligns with liberal views (0), is ideologically neutral (1), or reflects conservative perspectives (2), according to the political landscape of the United States. Texts lacking ideological elements should be considered neutral.\n\nProvide only the class prediction (0, 1, or 2) for the text provided.\n\nMessage: {text}\nClassification:",
+    "classes": {
+        "0": "liberal",
+        "1": "neutral",
+        "2": "conservative"
+    }
+}

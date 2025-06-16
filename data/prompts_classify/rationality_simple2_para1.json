@@ -1,0 +1,8 @@
+{
+    "name": "rationality_simple2_para1",
+    "template": "Assess whether the comment offers logical evaluation.\nGuidelines: Assign Yes (1) if the comment contains:\nContext or background information,\nSupporting evidence (facts, sources, expert opinions),\nLogical reasoning or organized argumentation.\nAssign No (0) if these elements are missing.\n\\n\\nProvide solely the anticipated classification (0 or 1) of the inquiry.\\n\\nText: {text}\\nClass:",
+       "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

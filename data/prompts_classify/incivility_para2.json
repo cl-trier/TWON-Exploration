@@ -1,0 +1,8 @@
+{
+    "name": "incivility_para2",
+    "template": "Determine if the comment shows incivility.\nGuidelines: Assign Yes (1) if the comment contains name-calling, insults, provocative language, sarcasm, yelling (ALL CAPS), offensive language, bias, threats, or limitations on freedoms. Assign No (0) if these elements are absent.\n\n\\n\\nProvide only the predicted category (0 or 1) for the request.\\n\\nText: {text}\\nCategory:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

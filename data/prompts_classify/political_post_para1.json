@@ -1,0 +1,8 @@
+{
+    "name": "political_post_para1",
+    "template": "Determine whether the given message should be categorized as political (1) or non-political (0). A message is considered political if it directly addresses a political issue, refers to political events, or mentions a political person, entity, or institution. Mentions of federal bodies are political, as are references to government branches. General discussions about national economic trends are political, whereas talks about specific stock prices are not.\n\nReply with just the expected classification (0 or 1) for the inquiry.\n\nText: {text}\nClass:",
+    "classes": {
+        "0": "non-political",
+        "1": "political"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "rationality_simple2_simpa1",
+    "template": "Does this comment provide rational analysis?  \nInstructions: Code Yes (1) if the comment includes:  \n- Context or background,  \n- Evidence (facts, sources, authorities),  \n- Reasoning or structured argument.  \nCode No (0) if these are absent  \n\nRespond with only the predicted class (0 or 1) of the request.  \n\nText: {text}  \nClass:",
+       "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

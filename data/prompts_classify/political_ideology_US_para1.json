@@ -1,0 +1,9 @@
+{
+    "name": "political_ideology_US_para1",
+    "template": "Categorize the given message according to its ideological stance as liberal (0), neutral (1), or conservative (2). The ideology is considered within the framework of the US political landscape. If the message lacks ideological content, it should be marked as neutral.\n\nProvide just the anticipated classification (0, 1, or 2) for the inquiry.\n\nMessage: {text}\nClassification:",
+    "classes": {
+        "0": "liberal",
+        "1": "neutral",
+        "2": "conservative"
+    }
+}

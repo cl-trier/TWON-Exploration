@@ -1,0 +1,8 @@
+{
+    "name": "incivility_para1",
+    "template": "Is this comment uncivil?\nGuidelines: Mark Yes (1) if the comment contains name-calling, insults, provocative language, sarcasm, shouting (ALL CAPS), profanity, discrimination, threats, or limitations on rights. Mark No (0) if these elements are absent.\n\n\\n\\nReply with just the predicted category (0 or 1) for the request.\\n\\nText: {text}\\nCategory:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "interactivity_acknowledgement_simple_para1",
+    "template": "Determine if this remark recognizes or replies to a different user's remark.\nGuidelines: Mark Yes (1) if the remark indicates concurrence or dissent with another user's opinion, usually marked by a username or expressions such as 'Yes,' 'No,' or 'I agree.' Mark No (0) if there is no explicit recognition or if it is solely derogatory.\n\nReply with only the anticipated category (0 or 1) of the inquiry.\n\nText: {text}\nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "interactivity_acknowledgement_simple_simpa1",
+    "template": "Does this comment acknowledge or respond to another user's comment?  \nInstructions:  \nCode Yes (1) if the comment shows agreement or disagreement with a specific user's statement, often signaled by a username or phrases like ‘Yes,’ ‘No,’ or ‘I agree.’  \nCode No (0) if it lacks a clear acknowledgment or is only an insult.  \n  \nRespond with only the predicted class (0 or 1) of the request.  \n  \nText: {text}  \nClass:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}

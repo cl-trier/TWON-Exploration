@@ -1,0 +1,8 @@
+{
+    "name": "interactivity_acknowledgement_simple_para2",
+    "template": "Is this comment an acknowledgment or reply to another user's remark?\nInstructions: Assign Yes (1) if the comment expresses agreement or disagreement with a particular user's statement, typically indicated by a username or words such as ‘Yes,’ ‘No,’ or ‘I agree.’ Assign No (0) if it does not clearly acknowledge or merely insults.\\n\\nReply with only the anticipated category (0 or 1) of the request.\\n\\nText: {text}\\nCategory:",
+    "classes": {
+        "0": "No",
+        "1": "Yes"
+    }
+}
