@@ -88,3 +88,8 @@ data/publicsphere/predictions_L8b_zero_jaidka2.parquet
 data/publicsphere/predictions_L8b_zero_para1.parquet
 data/publicsphere/publicsphere.cardiff_prompt_classify_anon.parquet
 data/publicsphere/pubspherepromptsrun_L8bpara3.parquet
+data/publicsphere/predictions_boukes_GPT4o_low_seed2.parquet
+data/publicsphere/predictions_boukes_GPT4o_low.parquet
+data/publicsphere/predictions_L33_zero_para2.parquet
+data/publicsphere/predictions_L33_zero_simpa1.parquet
+data/publicsphere/predictions_L33_zero1.parquet
