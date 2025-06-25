@@ -93,3 +93,4 @@ data/publicsphere/predictions_boukes_GPT4o_low.parquet
 data/publicsphere/predictions_L33_zero_para2.parquet
 data/publicsphere/predictions_L33_zero_simpa1.parquet
 data/publicsphere/predictions_L33_zero1.parquet
+report/2024-05--Simulation/GLLM_anno_bias/boukes_macro_f1_scores.csv
