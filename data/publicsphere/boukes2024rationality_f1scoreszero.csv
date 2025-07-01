@@ -1,0 +1,6 @@
+Label;Concept;Model;Macro F1 Score;Accuracy
+rationality_simple2_gpt4o_system_zero_dum;Rationality;gpt4o;0.63;0.85
+rationality_simple2_gpt4T_system_zero_dum;Rationality;gpt4T;0.60;0.84
+rationality_simple2_Q25_72b_zero_dum;Rationality;Qwen2.5:72b;0.66;0.85
+rationality_simple2_L33_70b_zero_dum;Rationality;Llama3.3:70b;0.73;0.84
+rationality_simple2_L31_8b_zero_dum;Rationality;Llama3.1:8b;0.61;0.84
