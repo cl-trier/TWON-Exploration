@@ -97,3 +97,21 @@ report/2024-05--Simulation/GLLM_anno_bias/boukes_macro_f1_scores.csv
 test.ipynb
 data/MH_BClemm_data/test/RENNERSLIJST TOURPRONO 2025.xlsx
 55--GLLM-annotation-bias-random_vs_systematic_error.ipynb
+report/2024-05--Simulation/pubsphere/figure1.pdf
+report/2024-05--Simulation/pubsphere/figure1.png
+report/2024-05--Simulation/pubsphere/figure2.pdf
+report/2024-05--Simulation/pubsphere/figure2.png
+report/2024-05--Simulation/pubsphere/figure3a.pdf
+report/2024-05--Simulation/pubsphere/figure3a.png
+report/2024-05--Simulation/pubsphere/figure3b.pdf
+report/2024-05--Simulation/pubsphere/figure3b.png
+report/2024-05--Simulation/pubsphere/figure4.pdf
+report/2024-05--Simulation/pubsphere/figure4.png
+report/2024-05--Simulation/pubsphere/figure5.pdf
+report/2024-05--Simulation/pubsphere/figure5.png
+__pycache__/config.cpython-310.pyc
+src/__pycache__/__init__.cpython-310.pyc
+src/__pycache__/distance_metric.cpython-310.pyc
+src/__pycache__/hf_classify.cpython-310.pyc
+src/__pycache__/prompt_classify.cpython-310.pyc
+src/__pycache__/sent_embedder.cpython-310.pyc
